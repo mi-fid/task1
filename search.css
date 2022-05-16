@@ -1,0 +1,105 @@
+            .center {
+                text-align: center;
+                font-size: 60px;
+                font-family: sans-serif;
+                vertical-align: middle;
+            }
+            .center_fotochki {
+                text-align: center;
+                height: 0px;
+            }
+            .right {
+                text-align: right;
+                font-size: 14px;
+                font-family: sans-serif;
+                padding: 20px;
+            }
+            .left {
+                text-align: left;
+                font-size: 14px;
+                font-family: sans-serif;
+                padding: 20px;
+            }
+.fotochki{
+    color:#4285f4;
+    font: 20px/20px roboto-regular, arial, sans-serif;
+    position:relative;
+    left:170px;bottom:30px;
+    
+}
+.left-more {
+    text-align: left;
+    color: #930; /* Цвет текста */
+    font-size: 20px;
+    font-family: sans-serif;
+    padding: 0 0 0 50px;
+            }
+
+            .newstyle{
+                padding:0 20px 0 20px;
+                /*color: #930; /* Цвет текста */
+                border-radius: 30px;
+                width: 400px;
+                height: 30px;
+                font-size:14px;
+            }
+            .newstyle:hover{
+                
+                box-shadow: 0 0 5px 2px rgba(122,122,122,0.5);
+
+            }
+            .button {
+                width: 150px;
+                height: 30px;
+                font-size:14px;
+            }
+            .container {
+                display: grid;
+                grid-template-columns: 200px auto;
+                height: 100px;
+            }
+            .container1 {
+                display: grid;
+                height: 100px;
+            }
+.style_more{
+                width: 100%;
+            }
+
+.container_more {
+    height: 50px;
+    border-bottom: 1px solid gray;
+    margin-bottom: 20px;
+            }
+
+.container_more-form {
+    display: grid;
+    grid-template-columns: 250px auto;
+    font-family: sans-serif;
+    margin-left: 55px;
+    width: 60%;
+            }
+.container_more-item {
+                font-family: sans-serif;
+                padding:0 0 10px 0;
+                font-size: 14px;
+            }
+.button_more{
+    width: 90px;
+    height: 30px;
+    background-color: #4d90fe; /* Цвет кнопки */
+    color: white; /* Цвет текста */
+    border: 1px solid #3079ed;
+    font-weight: bold;
+    border-radius: 2px;
+            }
+.button_more:hover{
+    background-color: #4787ed; /* Цвет фона */
+            }
+.button_display {
+    width: 60%;            
+    text-align: right;
+    font-size: 14px;
+    font-family: sans-serif;
+    padding: 0 0 0 60px;
+            }
